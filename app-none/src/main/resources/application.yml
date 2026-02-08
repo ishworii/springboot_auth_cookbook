@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: app-none
+  datasource:
+    url: jdbc:postgresql://localhost:5432/journaldb
+    username: journaluser
+    password: journalpass
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8080

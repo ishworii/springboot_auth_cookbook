@@ -1,0 +1,17 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: app-jwt
+  datasource:
+    url: jdbc:postgresql://localhost:5432/journaldb
+    username: journaluser
+    password: journalpass
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  secret: 9b0f5e7b0c4a4f2aa1d8d4c5c02c6d8d7ad3c9b6d1f0e2a4b5c6d7e8f9a0b1c2
+  access-minutes: 15

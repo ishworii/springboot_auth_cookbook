@@ -12,6 +12,7 @@
         <module>common</module>
         <module>app-none</module>
         <module>app-basic</module>
+        <module>app-jwt</module>
     </modules>
 
     <properties>
